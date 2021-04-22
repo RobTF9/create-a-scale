@@ -152,9 +152,9 @@
         "affectsGlobalScope": false
       },
       "./src/index.ts": {
-        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "affectsGlobalScope": false
+        "version": "c9cf49887e21690ab9256d7d865fafbb9e687f0663027355fe480128b9c68776",
+        "signature": "002dae673eba50a218ffa39f7e428a3f089d0374a407aa7e2152505a1573f845",
+        "affectsGlobalScope": true
       }
     },
     "options": {

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A CLI to build css styles for typography and spacing.",
   "main": "dist/index.js",
+  "bin": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "dev": "yarn build --watch --preserveWatchOutput",
