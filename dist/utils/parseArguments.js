@@ -6,15 +6,15 @@ function parseArguments(raw) {
         '--out': String,
         '--size': Number,
         '--scale': Number,
-        '--breaks': [Number],
+        '--break': [Number],
     }, {
         argv: raw.slice(2),
     });
     return {
         size: args['--size'],
         scale: args['--scale'],
-        out: args['--out'] || './',
-        breakpoints: args['--breaks'] || false,
+        out: args['--out'] || './scale.css',
+        breakpoints: args['--break'] || false,
     };
 }
 exports.default = parseArguments;

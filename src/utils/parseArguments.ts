@@ -13,7 +13,7 @@ function parseArguments(
       '--out': String,
       '--size': Number,
       '--scale': Number,
-      '--breaks': [Number],
+      '--break': [Number],
     },
     {
       argv: raw.slice(2),
@@ -22,8 +22,8 @@ function parseArguments(
   return {
     size: args['--size'],
     scale: args['--scale'],
-    out: args['--out'] || './',
-    breakpoints: args['--breaks'] || false,
+    out: args['--out'] || './scale.css',
+    breakpoints: args['--break'] || false,
   }
 }
 

@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 import parseArguments from './utils/parseArguments'
 import promptForOptions from './utils/promptForOptions'
+import css from './template/css'
 
 async function cli(args: string[]) {
   let options = parseArguments(args)
@@ -12,7 +13,7 @@ async function cli(args: string[]) {
     console.error('Size is not a number')
   } else {
     options = answers
-    return console.log(options)
+    return console.log(css(answers.size, answers.scale, answers.breakpoints))
   }
 }
 

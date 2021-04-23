@@ -167,7 +167,7 @@
         "affectsGlobalScope": false
       },
       "./src/utils/parsearguments.ts": {
-        "version": "da06d57f927a1db24ae17a7e363e270976a3e9d5192d3334ac8c8188bbfc2622",
+        "version": "5f939f4e98e07bc292940f12b5cc8fe3a26d9cbd8c10bc756a145d32fd2c9fbb",
         "signature": "e1eecb49c9dc936eda8ed038a73662b87c7e2778206f3223b283737d55542ec9",
         "affectsGlobalScope": false
       },
@@ -841,19 +841,24 @@
         "signature": "bfccb8a54e8ee0991f3a9d67df817294ce9b1f8b3dbbfc2a711c2dbe2e51b509",
         "affectsGlobalScope": false
       },
+      "./src/utils/createbreakpointscale.ts": {
+        "version": "312ee76e8ae365ba890ccf97630e132f15e907e53cef87d54fa3118b80f1c87a",
+        "signature": "bd6acfb0078a595982accfc82ca02758e2b7995615af36561eefc6bb2fa1cb3c",
+        "affectsGlobalScope": false
+      },
+      "./src/template/mediaqueries.ts": {
+        "version": "1ab8f7695f5c0919fc8a4613e368f97dd72414ec6abe5670edabc6d7fbb6f3f4",
+        "signature": "6f9467fbaf86052a65d8df87954399005bd33869843802f932fc4504f5bab2a6",
+        "affectsGlobalScope": false
+      },
+      "./src/template/css.ts": {
+        "version": "63ea486623a8b879639aa3a93c68a8faa0f083a22b2011868822ffb631a6a9e7",
+        "signature": "ebb04103c7672ccafe7906675904b9b440f8392180ec1708b1f854ad3a39deda",
+        "affectsGlobalScope": false
+      },
       "./src/index.ts": {
-        "version": "b984051308aecf95d75ce6c7dfdeb00bec54eebfa841532128e19421cc44a82f",
+        "version": "3e3d8d75ab789599b034f6ba2a931736798fded351f2b26cdefecb7136f76d38",
         "signature": "ba5c193062970e890092e20cae165633ad9e484ae8ed0073308e371b33587509",
-        "affectsGlobalScope": false
-      },
-      "./src/template/csstemplate.ts": {
-        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "affectsGlobalScope": false
-      },
-      "./src/template/sctemplate.ts": {
-        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "affectsGlobalScope": false
       }
     },
@@ -1530,8 +1535,15 @@
         "./node_modules/rxjs/internal/types.d.ts"
       ],
       "./src/index.ts": [
+        "./src/template/css.ts",
         "./src/utils/parsearguments.ts",
         "./src/utils/promptforoptions.ts"
+      ],
+      "./src/template/css.ts": [
+        "./src/template/mediaqueries.ts"
+      ],
+      "./src/template/mediaqueries.ts": [
+        "./src/utils/createbreakpointscale.ts"
       ],
       "./src/utils/parsearguments.ts": [
         "./node_modules/arg/index.d.ts"
@@ -2361,8 +2373,9 @@
       "./node_modules/typescript/lib/lib.scripthost.d.ts",
       "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "./src/index.ts",
-      "./src/template/csstemplate.ts",
-      "./src/template/sctemplate.ts",
+      "./src/template/css.ts",
+      "./src/template/mediaqueries.ts",
+      "./src/utils/createbreakpointscale.ts",
       "./src/utils/parsearguments.ts",
       "./src/utils/promptforoptions.ts"
     ]
