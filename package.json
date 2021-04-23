@@ -1,12 +1,18 @@
 {
-  "name": "create-scale",
-  "version": "1.0.1",
+  "name": "create-a-scale",
+  "version": "1.0.2",
   "description": "A CLI to build css styles for typography and spacing.",
   "main": "dist/index.js",
   "bin": "dist/index.js",
   "publishConfig": {
     "access": "public"
   },
+  "repository": "https://github.com/RobTF9/create-a-scale",
+  "keywords": [
+    "CLI",
+    "Typography",
+    "Spacing"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "yarn build --watch --preserveWatchOutput",
