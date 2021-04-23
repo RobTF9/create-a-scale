@@ -8,8 +8,8 @@ function createBreakpointScale(breakpoint, size, scale) {
     const xs = p * scale;
     const s = xs * scale;
     const m = s * scale;
-    const l = s * scale;
-    const xl = s * scale;
+    const l = m * scale;
+    const xl = l * scale;
     return { p, xs, s, m, l, xl };
 }
 exports.default = createBreakpointScale;

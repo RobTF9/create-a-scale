@@ -11,7 +11,8 @@
     "build": "tsc",
     "dev": "yarn build --watch --preserveWatchOutput",
     "lint": "eslint src --ext js,ts",
-    "test": "jest"
+    "test": "jest",
+    "demo": "create-scale --out './scale.css' --break 960 --break 1440"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.12.11",

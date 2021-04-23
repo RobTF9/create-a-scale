@@ -842,7 +842,7 @@
         "affectsGlobalScope": false
       },
       "./src/utils/createbreakpointscale.ts": {
-        "version": "312ee76e8ae365ba890ccf97630e132f15e907e53cef87d54fa3118b80f1c87a",
+        "version": "9609dbb2220f9f4b893a249b6b825df2b2620447873ef9bf499fcc6e5f821eae",
         "signature": "bd6acfb0078a595982accfc82ca02758e2b7995615af36561eefc6bb2fa1cb3c",
         "affectsGlobalScope": false
       },
@@ -856,9 +856,19 @@
         "signature": "ebb04103c7672ccafe7906675904b9b440f8392180ec1708b1f854ad3a39deda",
         "affectsGlobalScope": false
       },
+      "./node_modules/chalk/index.d.ts": {
+        "version": "0d14fa22c41fdc7277e6f71473b20ebc07f40f00e38875142335d5b63cdfc9d2",
+        "signature": "0d14fa22c41fdc7277e6f71473b20ebc07f40f00e38875142335d5b63cdfc9d2",
+        "affectsGlobalScope": false
+      },
       "./src/index.ts": {
-        "version": "3e3d8d75ab789599b034f6ba2a931736798fded351f2b26cdefecb7136f76d38",
+        "version": "a0ed0abe1964741660de13005b7bfbdbb4880db810f23f81fb4aa1f2a91d694c",
         "signature": "ba5c193062970e890092e20cae165633ad9e484ae8ed0073308e371b33587509",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/writefile.ts": {
+        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "affectsGlobalScope": false
       }
     },
@@ -1535,6 +1545,8 @@
         "./node_modules/rxjs/internal/types.d.ts"
       ],
       "./src/index.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/chalk/index.d.ts",
         "./src/template/css.ts",
         "./src/utils/parsearguments.ts",
         "./src/utils/promptforoptions.ts"
@@ -2276,6 +2288,7 @@
       "./node_modules/@types/node/zlib.d.ts",
       "./node_modules/@types/through/index.d.ts",
       "./node_modules/arg/index.d.ts",
+      "./node_modules/chalk/index.d.ts",
       "./node_modules/rxjs/index.d.ts",
       "./node_modules/rxjs/internal/asyncsubject.d.ts",
       "./node_modules/rxjs/internal/behaviorsubject.d.ts",
@@ -2377,7 +2390,8 @@
       "./src/template/mediaqueries.ts",
       "./src/utils/createbreakpointscale.ts",
       "./src/utils/parsearguments.ts",
-      "./src/utils/promptforoptions.ts"
+      "./src/utils/promptforoptions.ts",
+      "./src/utils/writefile.ts"
     ]
   },
   "version": "4.2.4"

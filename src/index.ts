@@ -1,7 +1,9 @@
 #! /usr/bin/env node
+import * as fs from 'fs'
 import parseArguments from './utils/parseArguments'
 import promptForOptions from './utils/promptForOptions'
 import css from './template/css'
+import chalk = require('chalk')
 
 async function cli(args: string[]) {
   let options = parseArguments(args)
@@ -13,7 +15,16 @@ async function cli(args: string[]) {
     console.error('Size is not a number')
   } else {
     options = answers
-    return console.log(css(answers.size, answers.scale, answers.breakpoints))
+    const content = css(answers.size, answers.scale, answers.breakpoints)
+    fs.writeFile(options.out, content, (err) => {
+      if (err) {
+        console.error(err)
+      } else {
+        console.log(
+          chalk.green(`Created your scale css file ${options.out} successfully`)
+        )
+      }
+    })
   }
 }
 
