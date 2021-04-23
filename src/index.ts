@@ -4,6 +4,7 @@ import parseArguments from './utils/parseArguments'
 import promptForOptions from './utils/promptForOptions'
 import css from './template/css'
 import chalk = require('chalk')
+import optionsAreValid from './validator/optionsAreValid'
 
 async function cli(args: string[]) {
   let options = parseArguments(args)
