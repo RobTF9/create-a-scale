@@ -16,7 +16,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "yarn build --watch --preserveWatchOutput",
-    "deploy": "yarn buld && npm publish"
+    "deploy": "yarn build && npm publish"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.12.11",
