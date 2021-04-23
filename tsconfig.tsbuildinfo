@@ -852,7 +852,7 @@
         "affectsGlobalScope": false
       },
       "./src/template/css.ts": {
-        "version": "63ea486623a8b879639aa3a93c68a8faa0f083a22b2011868822ffb631a6a9e7",
+        "version": "1472e1a40cc4e10f158ab56b5057c64fa22883e0b77af199e451f45462124de2",
         "signature": "ebb04103c7672ccafe7906675904b9b440f8392180ec1708b1f854ad3a39deda",
         "affectsGlobalScope": false
       },

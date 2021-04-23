@@ -18,37 +18,37 @@ function css(size, scale, breakpoints) {
 }
 
 ${mediaQueries_1.default(size, scale, breakpoints)}
-.p-b {
+.b {
   font-size: var(--b);
   margin-bottom: var(--b);
   line-height: calc(var(--b) * ${scale});
 }
 
-.h-xs {
+.xs {
   font-size: var(--xs);
   margin-bottom: var(--b);
   line-height: calc(var(--xs) * ${scale});
 }
 
-.h-s {
+.s {
   font-size: var(--s);
   margin-bottom: var(--b);
   line-height: calc(var(--s) * ${scale});
 }
 
-.h-m {
+.m {
   font-size: var(--m);
   margin-bottom: var(--b);
   line-height: calc(var(--m) * ${scale});
 }
 
-.h-l {
+.l {
   font-size: var(--l);
   margin-bottom: var(--b);
   line-height: calc(var(--l) * ${scale});
 }
 
-.h-xl {
+.xl {
   font-size: var(--xl);
   margin-bottom: var(--b);
   line-height: calc(var(--xl) * ${scale});
