@@ -1,6 +1,6 @@
 {
   "name": "create-a-scale",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A CLI to build css styles for typography and spacing.",
   "main": "dist/index.js",
   "bin": "dist/index.js",
@@ -15,10 +15,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "dev": "yarn build --watch --preserveWatchOutput",
-    "lint": "eslint src --ext js,ts",
-    "test": "jest",
-    "demo": "create-scale --out './scale.css' --break 960 --break 1440"
+    "dev": "yarn build --watch --preserveWatchOutput"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.12.11",

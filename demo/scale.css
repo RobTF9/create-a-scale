@@ -1,0 +1,44 @@
+:root {
+  --b: 16px;
+  --xs: 21.328px;
+  --s: 28.430224px;
+  --m: 37.897488591999995px;
+  --l: 50.51735229313599px;
+  --xl: 67.33963060675028px;
+}
+
+.b {
+  font-size: var(--b);
+  margin-bottom: var(--b);
+  line-height: calc(var(--b) * 1.333);
+}
+
+.xs {
+  font-size: var(--xs);
+  margin-bottom: var(--b);
+  line-height: calc(var(--xs) * 1.333);
+}
+
+.s {
+  font-size: var(--s);
+  margin-bottom: var(--b);
+  line-height: calc(var(--s) * 1.333);
+}
+
+.m {
+  font-size: var(--m);
+  margin-bottom: var(--b);
+  line-height: calc(var(--m) * 1.333);
+}
+
+.l {
+  font-size: var(--l);
+  margin-bottom: var(--b);
+  line-height: calc(var(--l) * 1.333);
+}
+
+.xl {
+  font-size: var(--xl);
+  margin-bottom: var(--b);
+  line-height: calc(var(--xl) * 1.333);
+}

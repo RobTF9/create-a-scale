@@ -1,0 +1,67 @@
+:root {
+  --b: 16px;
+  --xs: 19.2px;
+  --s: 23.04px;
+  --m: 27.648px;
+  --l: 33.1776px;
+  --xl: 39.81312px;
+}
+
+
+@media (min-width: 960px) {
+  :root {
+    --b:  19.2px;
+    --xs: 23.04px;
+    --s:  27.648px;
+    --m:  33.1776px;
+    --l:  39.81312px;
+    --xl: 47.775743999999996px;
+  }
+}
+      
+@media (min-width: 1200px) {
+  :root {
+    --b:  23.04px;
+    --xs: 27.648px;
+    --s:  33.1776px;
+    --m:  39.81312px;
+    --l:  47.775743999999996px;
+    --xl: 57.330892799999994px;
+  }
+}
+      
+.b {
+  font-size: var(--b);
+  margin-bottom: var(--b);
+  line-height: calc(var(--b) * 1.2);
+}
+
+.xs {
+  font-size: var(--xs);
+  margin-bottom: var(--b);
+  line-height: calc(var(--xs) * 1.2);
+}
+
+.s {
+  font-size: var(--s);
+  margin-bottom: var(--b);
+  line-height: calc(var(--s) * 1.2);
+}
+
+.m {
+  font-size: var(--m);
+  margin-bottom: var(--b);
+  line-height: calc(var(--m) * 1.2);
+}
+
+.l {
+  font-size: var(--l);
+  margin-bottom: var(--b);
+  line-height: calc(var(--l) * 1.2);
+}
+
+.xl {
+  font-size: var(--xl);
+  margin-bottom: var(--b);
+  line-height: calc(var(--xl) * 1.2);
+}
