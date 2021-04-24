@@ -1,6 +1,6 @@
 {
   "name": "create-a-scale",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A CLI to build css styles for typography and spacing.",
   "main": "dist/index.js",
   "bin": "dist/index.js",
