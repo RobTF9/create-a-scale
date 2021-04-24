@@ -3,7 +3,7 @@ function optionsAreValid(answers: {
   scale?: number
   out: string
   breakpoints: number[] | boolean
-}) {
+}): boolean {
   if (typeof answers.scale !== 'number' || Number.isNaN(answers.scale)) {
     console.error('Scale is not a number')
     return false
@@ -16,3 +16,5 @@ function optionsAreValid(answers: {
 
   return true
 }
+
+export default optionsAreValid
