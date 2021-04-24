@@ -4,9 +4,14 @@
   "description": "A CLI to build css styles for typography and spacing.",
   "main": "dist/index.js",
   "bin": "dist/index.js",
+  "files":["dist/"],
   "publishConfig": {
     "access": "public"
   },
+  "np": {
+		"yarn": false,
+		"contents": "dist"
+	},
   "repository": "https://github.com/RobTF9/create-a-scale",
   "keywords": [
     "CLI",
