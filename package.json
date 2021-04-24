@@ -1,6 +1,6 @@
 {
   "name": "create-a-scale",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "A CLI to build css styles for typography and spacing.",
   "main": "dist/index.js",
   "bin": "dist/index.js",
@@ -17,7 +17,7 @@
     "Spacing"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf dists/ && tsc",
     "dev": "yarn build --watch --preserveWatchOutput",
     "deploy": "yarn build && npm publish",
     "lint": "eslint src --ext ts"
